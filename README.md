@@ -26,7 +26,7 @@ Variables in the notebook to fit local policy, context, or data availability.
 
 ### 📝 Scoring Matrix
 Adjust the scoring matrices below to adapt to local policy.
-**Matrix for segments *outside* buffer (`matrix_outwith`):**
+**Matrix for routes *outside* settlement boundary/rural (`matrix_outwith`):**
 ```python
 matrix_outwith = {
     "<500": {"<20": "Definitely Quietway", "20-30": "Definitely Quietway", "30-40": "Likely Quietway", ">40": "Make Quietway"},
